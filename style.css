@@ -1,0 +1,107 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #D5F2E3;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h1, h2{
+  margin: 10px auto;
+}
+
+.h1-width{
+  width: *px
+}
+
+.h2-width{
+  width: 375px
+}
+
+.orange-background {
+  background-color: rgb(255, 136, 0);
+}
+
+.light-green-background{
+  background-color: #D5F2E3;
+}
+
+.mint-green-background{
+  background-color: #73BA9B;
+}
+
+.dark-green-text {
+  color: #003E1F;
+}
+
+.orange-text{
+  color: rgb(255, 172, 77);
+}
+
+.inline li{
+  display: inline;
+}
+
+.no-bullets{
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.container{
+  width: 650px;
+  margin: 40px auto;
+}
+
+.card{
+  text-align: center;
+  margin: 20px 35px;
+  border-radius: 5px
+}
+
+.button{
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0 auto;
+  font-size: x-large;
+}
+
+.shadow{
+  box-shadow: 0 0 4px black
+}
+
+#profile-image{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0 -120px;
+  border-radius: 5%;
+}
+
+#full-width{
+  padding: 25px 0px;
+}
+
+.padding{
+  padding: 25px;
+}
+
+.footer {
+  position: absolute;
+  bottom:-488px;
+  left:0;
+  width:100%;
+  height: 63px;
+}
+
+#socials{
+  font-size: 50px;
+  margin: 0px auto;
+  background-color: rgba(255, 136, 0, 0.7);
+  text-align: left;
+  padding-left: 30px;
+}
